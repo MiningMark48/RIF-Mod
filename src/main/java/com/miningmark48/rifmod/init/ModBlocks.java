@@ -13,12 +13,16 @@ public class ModBlocks {
     public static final Block obsidianFrame = new BlockRIFModTransparent(Material.iron).setBlockName("obsidianFrame").setBlockTextureName(Reference.MOD_ID + ":obsidianFrame");
     public static final Block rifDirt = new BlockRIFMod(Material.grass).setBlockName("rifDirt").setBlockTextureName(Reference.MOD_ID + ":rifDirt");
     public static final Block rifStone = new BlockRIFMod(Material.rock).setBlockName("rifStone").setBlockTextureName(Reference.MOD_ID + ":rifStone");
+    public static final Block rifBookshelf = new BlockRIFMod(Material.wood).setBlockName("rifBookshelf").setBlockTextureName(Reference.MOD_ID + ":rifBookshelf");
+    public static final Block rifBrick = new BlockRIFMod(Material.rock).setBlockName("rifBrick").setBlockTextureName(Reference.MOD_ID + ":rifBrick");
 
     public static void init(){
 
         GameRegistry.registerBlock(obsidianFrame, "obsidianFrame");
         GameRegistry.registerBlock(rifDirt, "rifDirt");
         GameRegistry.registerBlock(rifStone, "rifStone");
+        GameRegistry.registerBlock(rifBookshelf, "rifBookshelf");
+        GameRegistry.registerBlock(rifBrick, "rifBrick");
     }
 
 }
