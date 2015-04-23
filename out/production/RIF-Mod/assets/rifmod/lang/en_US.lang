@@ -2,3 +2,16 @@ itemGroup.rifmod=RIF Mod
 
 tile.obsidianFrame.name=Obsidian Frame
 tile.rifDirt.name=Reinforced Dirt
+tile.rifStone.name=Reinforced Stone
+tile.rifBookshelf.name=Reinforced Bookshelf
+tile.rifBrick.name=Reinforced Brick
+tile.rifClay.name=Reinforced Clay
+tile.rifCoalBlock.name=Reinforced Block of Coal
+tile.rifCoalOre.name=Reinforced Coal Ore
+tile.rifCobblestone.name=Reinforced Cobblestone
+tile.rifDiamondBlock.name=Reinforced Diamond Block
+tile.rifDiamondOre.name=Reinforced Diamond Ore
+tile.rifEmeraldBlock.name=Reinforced Emerald Block
+tile.rifEmeraldOre.name=Reinforced Emerald Ore
+tile.rifEndStone.name=Reinforced End Stone
+tile.rifGlass.name=Reinforced Glass
