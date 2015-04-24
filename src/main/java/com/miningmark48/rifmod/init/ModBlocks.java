@@ -25,6 +25,42 @@ public class ModBlocks {
     public static final Block rifEmeraldOre = new BlockRIFMod(Material.rock).setBlockName("rifEmeraldOre").setBlockTextureName(Reference.MOD_ID + ":rifEmeraldOre");
     public static final Block rifEndStone = new BlockRIFMod(Material.rock).setBlockName("rifEndStone").setBlockTextureName(Reference.MOD_ID + ":rifEndStone");
     public static final Block rifGlass = new BlockRIFModTransparent(Material.glass).setBlockName("rifGlass").setBlockTextureName(Reference.MOD_ID + ":rifGlass");
+    public static final Block rifGlassBlack = new BlockRIFModTransparent(Material.glass).setBlockName("rifGlassBlack").setBlockTextureName(Reference.MOD_ID + ":rifGlassBlack");
+    public static final Block rifGlassBlue = new BlockRIFModTransparent(Material.glass).setBlockName("rifGlassBlue").setBlockTextureName(Reference.MOD_ID + ":rifGlassBlue");
+    public static final Block rifGlassBrown = new BlockRIFModTransparent(Material.glass).setBlockName("rifGlassBrown").setBlockTextureName(Reference.MOD_ID + ":rifGlassBrown");
+    public static final Block rifGlassCyan = new BlockRIFModTransparent(Material.glass).setBlockName("rifGlassCyan").setBlockTextureName(Reference.MOD_ID + ":rifGlassCyan");
+    public static final Block rifGlassGray = new BlockRIFModTransparent(Material.glass).setBlockName("rifGlassGray").setBlockTextureName(Reference.MOD_ID + ":rifGlassGray");
+    public static final Block rifGlassGreen = new BlockRIFModTransparent(Material.glass).setBlockName("rifGlassGreen").setBlockTextureName(Reference.MOD_ID + ":rifGlassGreen");
+    public static final Block rifGlassLightBlue = new BlockRIFModTransparent(Material.glass).setBlockName("rifGlassLightBlue").setBlockTextureName(Reference.MOD_ID + ":rifGlassLightBlue");
+    public static final Block rifGlassLime = new BlockRIFModTransparent(Material.glass).setBlockName("rifGlassLime").setBlockTextureName(Reference.MOD_ID + ":rifGlassLime");
+    public static final Block rifGlassMagenta = new BlockRIFModTransparent(Material.glass).setBlockName("rifGlassMagenta").setBlockTextureName(Reference.MOD_ID + ":rifGlassMagenta");
+    public static final Block rifGlassOrange = new BlockRIFModTransparent(Material.glass).setBlockName("rifGlassOrange").setBlockTextureName(Reference.MOD_ID + ":rifGlassOrange");
+    public static final Block rifGlassPink = new BlockRIFModTransparent(Material.glass).setBlockName("rifGlassPink").setBlockTextureName(Reference.MOD_ID + ":rifGlassPink");
+    public static final Block rifGlassPurple = new BlockRIFModTransparent(Material.glass).setBlockName("rifGlassPurple").setBlockTextureName(Reference.MOD_ID + ":rifGlassPurple");
+    public static final Block rifGlassRed = new BlockRIFModTransparent(Material.glass).setBlockName("rifGlassRed").setBlockTextureName(Reference.MOD_ID + ":rifGlassRed");
+    public static final Block rifGlassSilver = new BlockRIFModTransparent(Material.glass).setBlockName("rifGlassSilver").setBlockTextureName(Reference.MOD_ID + ":rifGlassSilver");
+    public static final Block rifGlassWhite = new BlockRIFModTransparent(Material.glass).setBlockName("rifGlassWhite").setBlockTextureName(Reference.MOD_ID + ":rifGlassWhite");
+    public static final Block rifGlassYellow = new BlockRIFModTransparent(Material.glass).setBlockName("rifGlassYellow").setBlockTextureName(Reference.MOD_ID + ":rifGlassYellow");
+    public static final Block rifGlowstone = new BlockRIFMod(Material.glass).setBlockName("rifGlowstone").setBlockTextureName(Reference.MOD_ID + ":rifGlowstone").setLightLevel(2.0F);
+    public static final Block rifGoldBlock = new BlockRIFMod(Material.iron).setBlockName("rifGoldBlock").setBlockTextureName(Reference.MOD_ID + ":rifGoldBlock");
+    public static final Block rifGoldOre = new BlockRIFMod(Material.rock).setBlockName("rifGoldOre").setBlockTextureName(Reference.MOD_ID + ":rifGoldOre");
+    public static final Block rifGravel = new BlockRIFMod(Material.sand).setBlockName("rifGravel").setBlockTextureName(Reference.MOD_ID + ":rifGravel");
+    public static final Block rifHardenedClay = new BlockRIFMod(Material.rock).setBlockName("rifHardenedClay").setBlockTextureName(Reference.MOD_ID + ":rifHardenedClay");
+    public static final Block rifIce = new BlockRIFMod(Material.ice).setBlockName("rifIce").setBlockTextureName(Reference.MOD_ID + ":rifIce");
+    public static final Block rifIcePacked = new BlockRIFMod(Material.ice).setBlockName("rifIcePacked").setBlockTextureName(Reference.MOD_ID + ":rifIcePacked");
+    public static final Block rifIronBlock =  new BlockRIFMod(Material.iron).setBlockName("rifIronBlock").setBlockTextureName(Reference.MOD_ID + ":rifIronBlock");
+    public static final Block rifIronOre = new BlockRIFMod(Material.rock).setBlockName("rifIronOre").setBlockTextureName(Reference.MOD_ID + ":rifIronOre");
+    public static final Block rifLapisBlock = new BlockRIFMod(Material.rock).setBlockName("rifLapisBlock").setBlockTextureName(Reference.MOD_ID + ":rifLapisBlock");
+    public static final Block rifLapisOre = new BlockRIFMod(Material.rock).setBlockName("rifLapisOre").setBlockTextureName(Reference.MOD_ID + ":rifLapisOre");
+    public static final Block rifNetherBrick = new BlockRIFMod(Material.rock).setBlockName("rifNetherBrick").setBlockTextureName(Reference.MOD_ID + ":rifNetherBrick");
+    public static final Block rifNetherrack = new BlockRIFMod(Material.rock).setBlockName("rifNetherrack").setBlockTextureName(Reference.MOD_ID + ":rifNetherrack");
+    public static final Block rifObsidian = new BlockRIFMod(Material.rock).setBlockName("rifObsidian").setBlockTextureName(Reference.MOD_ID + ":rifObsidian").setHardness(8.0F);
+    public static final Block rifAcadiaPlank = new BlockRIFMod(Material.wood).setBlockName("rifAcadiaPlank").setBlockTextureName(Reference.MOD_ID + ":rifAcadiaPlank");
+    public static final Block rifBigOakPlank = new BlockRIFMod(Material.wood).setBlockName("rifBigOakPlank").setBlockTextureName(Reference.MOD_ID + ":rifBigOakPlank");
+    public static final Block rifBirchPlank = new BlockRIFMod(Material.wood).setBlockName("rifBirchPlank").setBlockTextureName(Reference.MOD_ID + ":rifBirchPlank");
+    public static final Block rifJunglePlank = new BlockRIFMod(Material.wood).setBlockName("rifJunglePlank").setBlockTextureName(Reference.MOD_ID + ":rifJunglePlank");
+    public static final Block rifOakPlank = new BlockRIFMod(Material.wood).setBlockName("rifOakPlank").setBlockTextureName(Reference.MOD_ID + ":rifOakPlank");
+    public static final Block rifSprucePlank = new BlockRIFMod(Material.wood).setBlockName("rifSprucePlank").setBlockTextureName(Reference.MOD_ID + ":rifSprucePlank");
 
     public static void init(){
 
@@ -43,6 +79,43 @@ public class ModBlocks {
         GameRegistry.registerBlock(rifEmeraldOre, "rifEmeraldOre");
         GameRegistry.registerBlock(rifEndStone, "rifEndStone");
         GameRegistry.registerBlock(rifGlass, "rifGlass");
+        GameRegistry.registerBlock(rifGlassBlack, "rifGlassBlack");
+        GameRegistry.registerBlock(rifGlassBlue, "rifGlassBlue");
+        GameRegistry.registerBlock(rifGlassBrown, "rifGlassBrown");
+        GameRegistry.registerBlock(rifGlassCyan, "rifGlassCyan");
+        GameRegistry.registerBlock(rifGlassGray, "rifGlassGray");
+        GameRegistry.registerBlock(rifGlassGreen, "rifGlassGreen");
+        GameRegistry.registerBlock(rifGlassLightBlue, "rifGlassLightBlue");
+        GameRegistry.registerBlock(rifGlassLime, "rifGlassLime");
+        GameRegistry.registerBlock(rifGlassMagenta, "rifGlassMagenta");
+        GameRegistry.registerBlock(rifGlassOrange, "rifGlassOrange");
+        GameRegistry.registerBlock(rifGlassPink, "rifGlassPink");
+        GameRegistry.registerBlock(rifGlassPurple, "rifGlassPurple");
+        GameRegistry.registerBlock(rifGlassRed, "rifGlassRed");
+        GameRegistry.registerBlock(rifGlassSilver, "rifGlassSilver");
+        GameRegistry.registerBlock(rifGlassWhite, "rifGlassWhite");
+        GameRegistry.registerBlock(rifGlassYellow, "rifGlassYellow");
+        GameRegistry.registerBlock(rifGlowstone, "rifGlowstone");
+        GameRegistry.registerBlock(rifGoldBlock, "rifGoldBlock");
+        GameRegistry.registerBlock(rifGoldOre, "rifGoldOre");
+        GameRegistry.registerBlock(rifGravel, "rifGravel");
+        GameRegistry.registerBlock(rifHardenedClay, "rifHardenedClay");
+        GameRegistry.registerBlock(rifIce, "rifIce");
+        GameRegistry.registerBlock(rifIcePacked, "rifIcePacked");
+        GameRegistry.registerBlock(rifIronBlock, "rifIronBlock");
+        GameRegistry.registerBlock(rifIronOre, "rifIronOre");
+        GameRegistry.registerBlock(rifLapisBlock, "rifLapisBlock");
+        GameRegistry.registerBlock(rifLapisOre, "rifLapisOre");
+        GameRegistry.registerBlock(rifNetherBrick, "rifNetherBrick");
+        GameRegistry.registerBlock(rifNetherrack, "rifNetherrack");
+        GameRegistry.registerBlock(rifObsidian, "rifObsidian");
+        GameRegistry.registerBlock(rifAcadiaPlank, "rifAcadiaPlank");
+        GameRegistry.registerBlock(rifBigOakPlank, "rifBigOakPlank");
+        GameRegistry.registerBlock(rifBirchPlank, "rifBirchPlank");
+        GameRegistry.registerBlock(rifJunglePlank, "rifJunglePlank");
+        GameRegistry.registerBlock(rifOakPlank, "rifOakPlank");
+        GameRegistry.registerBlock(rifSprucePlank, "rifSprucePlank");
+
     }
 
 }

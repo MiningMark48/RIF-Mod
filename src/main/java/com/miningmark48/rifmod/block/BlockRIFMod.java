@@ -7,8 +7,8 @@ import net.minecraft.block.material.Material;
 public class BlockRIFMod extends Block {
 
     public BlockRIFMod(Material material){
-        super(Material.rock);
-        this.setHardness(2.0F);
+        super(material);
+        this.setHardness(5.5F);
         this.setResistance(99999.9F);
         this.setCreativeTab(CreativeTabRIFMod.RIFMod_TAB);
     }
